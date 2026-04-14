@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     CHROMA_PATH: str = "my_arabic_db"
 
     EMBEDDING_MODEL: str = "accounts/fireworks/models/qwen3-embedding-8b"
-    LLM_MODEL: str = "accounts/fireworks/models/qwen2p5-vl-32b-instruct"
+    LLM_MODEL: str = "accounts/fireworks/models/llama-v3p3-70b-instruct"
 
     # إعدادات Pydantic Settings (تقرأ من .env)
     model_config = SettingsConfigDict(
